@@ -14,7 +14,7 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/SHEBUILDS_HEALTHIFY_FRONTEND",
     element:
       <div>
         <NavbR />
@@ -43,7 +43,7 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router}>
+    <RouterProvider router={router} basename="SHEBUILDS_HEALTHIFY_FRONTEND">
       {/* <NavbR />
       <Hero />
       <Calculate /> */}
