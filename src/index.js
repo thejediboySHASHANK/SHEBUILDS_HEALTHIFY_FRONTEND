@@ -8,13 +8,13 @@ import Steps from './Steps/Steps';
 
 // IMPORTING BROWSEROUTES OF REACT FOR MULTIPLE PAGES 
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
-    path: "/SHEBUILDS_HEALTHIFY_FRONTEND",
+    path: "/",
     element:
       <div>
         <NavbR />
