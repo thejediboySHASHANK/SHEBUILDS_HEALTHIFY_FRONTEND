@@ -1,3 +1,10 @@
+HOW TO USE IT : 
+
+Go to the environments and click on the github pages link to access the website. While filling the form for calculation, your browser might say that auto-filling is disabled as form is not secure. In that case, ensure that you have https in your url and not http. 
+
+https is forced by default, but however if your browser settings are different, then you might encounter this error. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
