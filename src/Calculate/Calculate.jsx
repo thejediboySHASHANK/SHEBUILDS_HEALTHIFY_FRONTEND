@@ -32,7 +32,7 @@ function Calculate() {
 
     return (
         <div className="form" id="form">
-            <form action='http://127.0.0.1:5000//predict' method="post">
+            <form action='http://shawshank1104.pythonanywhere.com///predict' method="post">
 
 
                 <fieldset class="row mb-3">

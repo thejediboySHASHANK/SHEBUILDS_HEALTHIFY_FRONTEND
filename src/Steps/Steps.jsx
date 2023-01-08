@@ -14,7 +14,7 @@ function Steps() {
 
             </div>
             <div className="step-form col-lg-6 md-6 sm-12">
-                <form action='http://127.0.0.1:5000//predictSteps' method="post" style={{display: 'inline-block'}}>
+                <form action='http://shawshank1104.pythonanywhere.com//predictSteps' method="post" style={{display: 'inline-block'}}>
                     <div class="row mb-3">
                         <label for="height" class="col-sm-2 col-form-label">Height</label>
                         <div class="col-sm-10">
