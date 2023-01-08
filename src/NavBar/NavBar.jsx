@@ -13,7 +13,7 @@ function NavbR() {
                     <ul class="navbar-nav">
                         <li class="one nav-item active">
                             <Link to="/">
-                            <a class="nav-link" href="#home">Home <span class="sr-only"></span></a>
+                            <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
                             </Link>
                         </li>
                         <li class="two nav-item">
