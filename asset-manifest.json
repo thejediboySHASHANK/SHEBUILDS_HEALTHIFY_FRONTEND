@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/SHEBUILDS_HEALTHIFY_FRONTEND/static/js/main.78e2cae3.js",
+    "main.js": "/SHEBUILDS_HEALTHIFY_FRONTEND/static/js/main.9750c492.js",
     "static/media/pakka.png": "/SHEBUILDS_HEALTHIFY_FRONTEND/static/media/pakka.eb5777c07ec695b96c20.png",
     "index.html": "/SHEBUILDS_HEALTHIFY_FRONTEND/index.html",
-    "main.78e2cae3.js.map": "/SHEBUILDS_HEALTHIFY_FRONTEND/static/js/main.78e2cae3.js.map"
+    "main.9750c492.js.map": "/SHEBUILDS_HEALTHIFY_FRONTEND/static/js/main.9750c492.js.map"
   },
   "entrypoints": [
-    "static/js/main.78e2cae3.js"
+    "static/js/main.9750c492.js"
   ]
 }
