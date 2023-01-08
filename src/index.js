@@ -1,17 +1,54 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import NavbR from './NavBar/NavBar';
+import Hero from './Hero/Hero';
+import Calculate from './Calculate/Calculate';
+import OtherComponent from './ResultsPage/ResultsPage';
+import Steps from './Steps/Steps';
+
+// IMPORTING BROWSEROUTES OF REACT FOR MULTIPLE PAGES 
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route
+} from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element:
+      <div>
+        <NavbR />
+        <Hero />
+        <Calculate />
+      </div>,
+  },
+  {
+    path: "/prediction",
+    element:
+      <div>
+        <OtherComponent />
+      </div>
+  },
+  {
+    path: "/steps",
+    element:
+      <div>
+        <NavbR />
+        <Steps />
+
+      </div>
+  }
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router}>
+      {/* <NavbR />
+      <Hero />
+      <Calculate /> */}
+      {/* <h1>Hello World!</h1> */}
+    </RouterProvider>
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

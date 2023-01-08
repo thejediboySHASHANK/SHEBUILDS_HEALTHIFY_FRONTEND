@@ -1,0 +1,104 @@
+body {
+    background-color: #F8F4EE;
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* NAVBAR STYLES  */
+.navbar {
+    background-color: #F8F4EE;
+    font-family: 'Hahmlet', serif;
+}
+.navbar-brand {
+    margin: 1rem 0 0 7rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.one {
+    margin: 1rem 0 0 10rem;
+    font-size: 1rem;
+
+}
+.two {
+    margin : 1rem 0 0 2rem;
+    font-size: 1rem;
+}
+
+/* HERO SECTION  */
+
+.heading {
+    font-family: 'Hahmlet', serif;
+    font-weight: 800;
+    font-size: 3.5rem;
+    /* width: 80%; */
+    margin: 8rem 0 0 7rem;
+}
+.para {
+    font-family: 'Hahmlet', serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 2rem 0 0 7rem;
+    /* width: 40%; */
+}
+.button {
+    color: #ffffff;
+    background-color: #29943a;
+    font-size: 19px;
+    margin: 3rem 0 0 7rem;
+    border: 1px solid #29943a;
+    border-radius: 14px;
+    padding: 15px 50px;
+    cursor: pointer
+}
+.button:hover {
+    color: #fafafa;
+    background-color: #106511;
+}
+.img {
+    height: 600px;
+    width: 700px;
+    filter: drop-shadow(5px 5px 5px rgb(84, 78, 78));
+}
+
+/* FORM PAGE  */
+.form {
+    width : 70%;
+    margin: 10rem 0 0 7rem;
+    font-size: 1.2rem;
+    font-family: 'Inter', sans-serif;
+}
+.submit {
+    margin : 3rem 0 5rem 0;
+    padding: 10px 15px 10px 15px;
+    font-size: 1.3rem;
+}
+
+
+/* STEPS PAGE  */
+.stepara {
+
+    font-family: 'Hahmlet', serif;
+    font-size: 3rem;
+    font-weight: 500;
+    /*   */
+    margin: 7rem 0 0 7rem;
+    display: inline-block;
+
+
+}
+.beta {
+    margin: 4rem 0 0 7rem;
+    display: inline-block;
+    font-family: 'Hahmlet', serif;
+    font-size: 1.2rem;
+}
+.step-form {
+    margin: 8rem 0 0 0rem;
+    padding-left: 10rem;
+    font-family: 'Inter', sans-serif;
+    /* width: 50%; */
+}
